@@ -46,6 +46,10 @@
         margin: 0 auto 2rem;
     }
 
+    .section__pic-container-about{
+        display: none;
+    }
+
     .about-containers {
         margin-top: 0;
     }
@@ -103,6 +107,10 @@
         justify-content: center;
     }
 
+    .section__pic-container-about{
+        display: none;
+    }
+
     .section__text__p2 {
         font-size: 1.25rem;
     }
@@ -113,6 +121,10 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    #about{
+        margin-top: 60px;
     }
 
 }

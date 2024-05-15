@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+::selection{
+    color: #CEA780;
+    background-color: #383F32;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #E1C8AC;
@@ -152,8 +157,8 @@ a:hover {
 /* sections */
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 50px;
+    height: auto;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -164,6 +169,7 @@ section {
 }
 
 /* profile */
+
 
 #profile {
     justify-content: center;
@@ -181,8 +187,17 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
+    max-width: 400px;
     margin: auto 0;
 }
+
+.section__pic-container-about{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
 
 .section__text {
     align-self: center;
@@ -294,7 +309,7 @@ section {
 
 .about-containers, .about-details-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .about-pic {
