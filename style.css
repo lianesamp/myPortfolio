@@ -9,6 +9,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #E1C8AC;
 }
 
 html {
@@ -16,7 +17,16 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: #778874;
+
+}
+
+.text-container p {
+    color: #383F32;
+}
+
+h3{
+    color: #383F32;
 }
 
 a, .btn {
@@ -42,7 +52,7 @@ nav {
 }
 
 a {
-    color: #000;
+    color: #383F32;
     text-decoration: none;
     text-decoration-color: #fff;
 }
@@ -56,6 +66,7 @@ a:hover {
 
 .logo {
     font-size: 2rem;
+    color: #383F32;
 }
 
 .logo:hover{
@@ -85,7 +96,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: #000;
+    background-color: #383F32;
     transition: all 0.3 ease-in-out;
 }
 
@@ -105,7 +116,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: #000;
+    color: #383F32;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -160,6 +171,12 @@ section {
     height: 80vh;
 }
 
+.profile-pic{
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    box-shadow: 0 40px 80px #825239;
+}
+
 .section__pic-container{
     display: flex;
     height: 400px;
@@ -178,20 +195,24 @@ section {
 
 .section__text__p1 {
     text-align: left;
+    color: #778874;
 }
 
 .section__text__p1__center{
     text-align: center;
+    color: #778874;
 }
 
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: #778874;
 }
 
 .title {
     font-size: 3rem;
     text-align: center;
+    color: #383F32;
 }
 
 #socials-container {
@@ -225,7 +246,7 @@ section {
 }
 
 .btn-color-1, .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: #825239 0.1rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
@@ -233,20 +254,21 @@ section {
 }
 
 .btn-color-1, .btn-color-2:hover {
-    background: rgb(53,53,53);
-    color: #fff;
+    background: #825239;
+    color: #CEA780;
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: #825239;
 }
 
 .btn-color-2 {
     background: none;
+    color: #825239;
 }
 
 .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: #CEA780 0.1rem solid;
 }
 
 .btn-container {
@@ -288,10 +310,9 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: #fff;
+    background: #efe0cf;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163,163);
+    border:  0.1rem solid #825239;
     text-align: center;
 }
 
@@ -313,7 +334,7 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: #778874;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -364,11 +385,11 @@ article .icon {
 
 .project-title {
     margin: 1rem;
-    color: #000;
+    color: #383F32;
 }
 
 .project-btn {
-    color: #000;
+    color: #383F32;
     border-color: rgb(163, 163,163);
 }
 
@@ -379,6 +400,7 @@ article .icon {
 /* contact */
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -426,3 +448,4 @@ footer {
 footer p {
     text-align: center;
 }
+

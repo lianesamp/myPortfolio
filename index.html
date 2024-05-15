@@ -41,7 +41,7 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Liane Sampaio profile picture">
+            <img src="./assets/profile.png" alt="Liane Sampaio profile picture" class="profile-pic">
         </div>
         <div class="section__text"> 
             <p class="section__text__p1__center">
@@ -58,8 +58,8 @@
                 <button class="btn btn-color-1" onclick="location.href='#contact';">Contact</button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/lianesamp/'">
-                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/lianesamp'">
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" title="linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/lianesamp/'">
+                <img src="./assets/github.png" alt="My Github profile" title="github" class="icon" onclick="location.href='https://github.com/lianesamp'">
             </div>
         </div>
     </section>
@@ -153,8 +153,15 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
-                                <h3>Material UI</h3>
+                                <h3>Wordpress</h3>
                                 <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
                             </div>
                         </article>
                     </div>
@@ -183,13 +190,7 @@
                                 <p>Experienced</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
+                        
                     </div>
                 </div>
             </div>
@@ -202,7 +203,7 @@
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-container color-container">
+                <div class="details-container ">
                     <div class="artile-container">
                         <img src="./assets/ar-shelving.png" alt="ar shelving" class="project-img">
                     </div>
@@ -217,7 +218,7 @@
                     </div>
                     
                 </div>
-                <div class="details-container color-container">
+                <div class="details-container ">
                     <div class="artile-container">
                         <img src="./assets/rotuling.euss.png" alt="rotuling" class="project-img">
                     </div>
@@ -231,7 +232,7 @@
                         <p class="section__text__p1">I developed the design of this project in Adobe XD, following the client's inspirations. I used WordPress for development, creating a custom theme and applying Bootstrap to create sections and content. Additionally, I worked with JavaScript and native WordPress functions. For the portfolio creation, I used a specific plugin.</p>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="details-container ">
                     <div class="artile-container">
                         <img src="./assets/lasinsorga.png" alt="la sinsorga" class="project-img">
                     </div>
@@ -260,9 +261,10 @@
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="linkdin icon" class="icon contact-icon">
-                <p><a href="linkedin.com">LinkedIn</a></p>
+                <p><a href="https://www.linkedin.com/in/lianesamp/" target="_blank">LinkedIn</a></p>
             </div>
         </div>
+        <img src="./assets/arrow-top.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./'">
     </section>
 
     <footer>
@@ -279,6 +281,7 @@
         <p>Copyright &#169; 2024 Liane Sampaio. All Rights Reserved.</p>
     </footer>
 
+    
     <script src="script.js"></script>
 </body>
 </html>
