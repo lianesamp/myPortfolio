@@ -180,6 +180,10 @@ section {
     text-align: left;
 }
 
+.section__text__p1__center{
+    text-align: center;
+}
+
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
