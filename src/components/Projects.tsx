@@ -1,5 +1,12 @@
 import React from "react";
 
+// Definindo os caminhos para as imagens
+import arShelvingImg from './assets/ar-shelving.png';
+import rotulingImg from './assets/rotuling.euss.png';
+import laSinsorgaImg from './assets/lasinsorga.png';
+import sesiImg from './assets/sesi.png';
+import arrowImg from './assets/arrow.png';
+
 // Definição da estrutura dos projetos
 interface Project {
   title: string;
@@ -12,28 +19,28 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Ar Shelving",
-    image: "./assets/ar-shelving.png",
+    image: arShelvingImg,  // Usando a importação direta
     link: "https://www.ar-shelving.com/",
     description:
       "I developed this project in WordPress, based on the design that the client made available in Adobe XD...",
   },
   {
     title: "Rotuling",
-    image: "./assets/rotuling.euss.png",
+    image: rotulingImg,  // Usando a importação direta
     link: "https://www.rotuling.eus/",
     description:
       "I developed the design of this project in Adobe XD, following the client's inspirations...",
   },
   {
     title: "La Sinsorga",
-    image: "./assets/lasinsorga.png",
+    image: laSinsorgaImg,  // Usando a importação direta
     link: "https://lasinsorga.com/",
     description:
       "In this project, I assisted with specific administrative tasks, such as integrating the newsletter form...",
   },
   {
     title: "SESI",
-    image: "./assets/sesi.png",
+    image: sesiImg,  // Usando a importação direta
     link: "https://www.sesi-ce.org.br/para-empresa/sesi-clinica",
     description:
       "I was part of the team that created this project, where we developed the pages using Vue.js...",
@@ -66,7 +73,7 @@ const Projects: React.FC = () => {
           ))}
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" className="icon arrow" onClick={() => (window.location.href = './#contact')} />
+      <img src={arrowImg} alt="Arrow icon" className="icon arrow" onClick={() => (window.location.href = './#contact')} />
     </section>
   );
 };

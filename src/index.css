@@ -474,6 +474,27 @@ footer p {
     text-align: center;
 }
 
+/* Estilo do botão de "scroll to top" */
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    z-index: 1000; /* Certifica que o botão fica acima dos outros elementos */
+  }
+  
+  .scroll-to-top-button:hover {
+    background-color: #0056b3;
+  }
+  
+
 @media screen and (max-width: 1400px) {
   #profile {
       height: 83vh;
