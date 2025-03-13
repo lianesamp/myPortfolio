@@ -1,0 +1,11 @@
+[build]
+  # Comando para construir o projeto (geralmente "npm run build" ou "yarn build")
+  command = "npm run build"
+
+  # Diretório onde os arquivos gerados pelo build são armazenados (geralmente "dist" ou "build")
+  publish = "build"
+
+[[redirects]]
+  from = "/old-url"
+  to = "/new-url"
+  status = 301
