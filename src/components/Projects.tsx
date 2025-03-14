@@ -1,11 +1,11 @@
 import React from "react";
 
 // Definindo os caminhos para as imagens
-import arShelvingImg from './assets/ar-shelving.png';
-import rotulingImg from './assets/rotuling.euss.png';
-import laSinsorgaImg from './assets/lasinsorga.png';
-import sesiImg from './assets/sesi.png';
-import arrowImg from './assets/arrow.png';
+import arShelvingImg from '/src/assets/ar-shelving.png';
+import rotulingImg from '/src/assets/rotuling.euss.png';
+import laSinsorgaImg from '/src/assets/lasinsorga.png';
+import sesiImg from '/src/assets/sesi.png';
+import arrowImg from '/src/assets/arrow.png';
 
 // Definição da estrutura dos projetos
 interface Project {
