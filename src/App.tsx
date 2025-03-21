@@ -10,6 +10,9 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 function App() {
   return (
     <div>
+      <div className="flex h-screen items-center justify-center bg-base-200">
+        <button className="btn btn-primary">Clique Aqui Teste</button>
+      </div>
       <Navbar />
       <Home />
       <About />
