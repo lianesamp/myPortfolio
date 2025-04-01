@@ -7,6 +7,6 @@ import Projects from "./pages/ProjectsPage";
 import Contact from "./pages/Contact";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 function App() {
-    return (_jsxs("div", { children: [_jsx(Navbar, {}), _jsx(Home, {}), _jsx(About, {}), _jsx(Projects, {}), _jsx(Contact, {}), _jsx(Footer, {}), _jsx(ScrollToTopButton, {})] }));
+    return (_jsxs("div", { children: [_jsx("div", { className: "flex items-center justify-center bg-base-200", children: _jsx("button", { className: "btn btn-accent", children: "Accent" }) }), _jsx(Navbar, {}), _jsx(Home, {}), _jsx(About, {}), _jsx(Projects, {}), _jsx(Contact, {}), _jsx(Footer, {}), _jsx(ScrollToTopButton, {})] }));
 }
 export default App;

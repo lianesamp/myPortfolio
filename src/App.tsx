@@ -5,14 +5,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/ProjectsPage";
 import Contact from "./pages/Contact";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollToTopButton from "./components/ScrollToTopButton.tsx";
 
 function App() {
   return (
     <div>
-      <div className="flex h-screen items-center justify-center bg-base-200">
-      <button className="btn btn-accent">Accent</button>
-      </div>
+      
       <Navbar />
       <Home />
       <About />

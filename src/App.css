@@ -1,4 +1,9 @@
-@import "tailwindcss";
+/* index.css ou App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 
 #root {

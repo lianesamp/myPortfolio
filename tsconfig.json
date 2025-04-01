@@ -5,10 +5,11 @@
     "moduleResolution": "node", // Resolver módulos como o Node.js
     "jsx": "react-jsx",         // Se você estiver usando React
     "strict": true,             // Habilitar verificações estritas de tipo
-    "noEmit": false,            // Permitir a emissão de JavaScript (a compilação)
-    "allowJs": true,            // Permitir a importação de arquivos JavaScript
+    "noEmit": true,            // Permitir a emissão de JavaScript (a compilação)
+    "allowJs": false,            // Permitir a importação de arquivos JavaScript
     "esModuleInterop": true,    // Garantir compatibilidade com CommonJS
-    "skipLibCheck": true        // Ignorar verificação de tipos em bibliotecas externas
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,       // Ignorar verificação de tipos em bibliotecas externas
   },
   "include": [
     "src"
